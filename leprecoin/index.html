@@ -29,7 +29,25 @@
         <img src="images/logo.svg" alt="Lepreco.in">
         <h1>Stream tips sponsorship</h1>
 				<p>Average donor pays for 300 symbols message, but uses less than 50 to say "hello!" and "kappa". We offer him to sell the rest of the message to our sponsors.</p>
-        <input class="input_mail" type="email" placeholder="enter your e-mail">&nbsp;<input class="button" type="submit" value="Notify me">
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxMjRGal1f2GGgA12fBJEuivUmPNkhjM9mnpV57pabE7lGygak/exec">
+        <!-- <input id="email" class="email" type="email" placeholder="enter your e-mail">&nbsp;<input class="button" type="submit" value="Notify me"> -->
+
+        <input id="email" name="email" type="email" value="" required placeholder="enter your e-mail"/>
+        <span id="email-invalid" style="display:none">
+          Must be a valid email address</span>
+
+          <button class="button-success pure-button button-xlarge">notify me</button>
+        </form>
+
+        <!-- Customise the Thankyou Message People See when they submit the form: -->
+        <div style="display:none;" id="thankyou_message">
+          <h2>Thanks!</h2>
+        </div>
+
+        <!-- Submit the Form to Google Using "AJAX" -->
+        <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
 			</div>
 		</div>
 	</div>
@@ -45,6 +63,7 @@
 </html>
 
     <script src="js/index.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 </html>
