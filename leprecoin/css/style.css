@@ -64,3 +64,29 @@ h1 {
 .footer {
   padding-top: 10%;
 }
+input {
+  margin-top: 30px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 48px;
+}
+
+input[type="email"] {
+  padding: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 280px;
+  color: white;
+}
+input[type="submit"] {
+  background-color: white;
+  width: 156px;
+  color: black;
+}
