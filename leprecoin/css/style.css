@@ -37,6 +37,9 @@
 }
 
 /*Content*/
+a, a:link, a:visited, a:hover {
+  color: white;
+}
 h1, p, i {
   color: white;
 }
@@ -72,7 +75,6 @@ h2 {
   padding-top: 10%;
 }
 input {
-  margin-top: 30px;
   box-sizing: border-box;
   border-radius: 3px;
   border-width: 1px;
@@ -90,7 +92,6 @@ input {
   color: white;
 }
 button {
-  margin-top: 30px;
   box-sizing: border-box;
   border-radius: 3px;
   border-width: 1px;
