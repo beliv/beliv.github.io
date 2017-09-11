@@ -92,7 +92,7 @@ input {
   color: white;
 }
 button {
-  padding-top: 10px;
+  margin-top: 20px;
   box-sizing: border-box;
   border-radius: 3px;
   border-width: 1px;
