@@ -11,7 +11,7 @@
   z-index: -99;
 }
 .video-background::before {
-  content: "";
+  content: "../images/bg.jpg";
   position: absolute;
   top: 0;
   right: 0;
