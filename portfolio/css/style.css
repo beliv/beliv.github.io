@@ -100,71 +100,6 @@ PRELOADER
 }
 
 
-
-
-
-/*
-**************************
-NAVIGATION OPACITY
-**************************
-*/
-
-
-
-.opacity-nav{
-  position:fixed;
-  display:none;
-  width:100%;
-  height:100%;
-  top:0;
-  z-index:9999;
-  background:rgba(0,0,0,0.95);
-}
-
-ul.menu-fullscreen{
-  width: 100%;
-  top: 50%;
-  position: absolute;
-  height: 280px;
-  margin-top: -140px;
-}
-
-ul.menu-fullscreen li{
-  font-size:35px;
-  text-align:center;
-  line-height:70px;
-  font-weight:500;
-}
-
-ul.menu-fullscreen li > a{
-  color:#999999;
-  border:0;
-}
-
-ul.menu-fullscreen li > a:hover{
-  color:#ffffff;
-}
-
-
-#full{
-  width:1140px;
-  position: relative;
-  top:0;
-  margin:0 auto;
-  z-index: 9997;
-}
-
-
-#fullscreen{
-  display:none;
-  position:absolute;
-  top:0;
-  width:100%;
-  margin:0 auto;
-  height:80px;
-  z-index: 9998;
-}
-
 /*
 **************************
 HEADER
@@ -358,7 +293,7 @@ CONTENT
 
 .content .text-intro{
   width: 1140px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin: 50px auto 0;
 }
 
@@ -415,32 +350,6 @@ CONTENT
             50% { opacity:0; }
             100% { opacity:1; }
         }
-
-/*
-**************************
-HOME SIDEBAR
-**************************
-*/
-
-.home-sidebar{
-  top:0;
-  position:absolute;
-  width:33.3333%;
-  right:0;
-  height:100%;
-  background:#f4f4f4;
-  z-index:9;
-  overflow:hidden;
-  background-size:100%;
-}
-
-.parallax{
-  position:absolute;
-}
-
-.parallax-option{
-  position:absolute; width:100%; height:100%;
-}
 
 /*
 **************************
