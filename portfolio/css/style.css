@@ -363,12 +363,12 @@ CONTENT
 }
 
 .content .text-intro h1{
-  font-size:43px;
+  font-size:40px;
   width:40%;
   text-transform:uppercase;
   color:#000000;
   font-weight:900;
-  line-height:70px;
+  line-height: 60px;
 }
 
 .content .text-intro p{
