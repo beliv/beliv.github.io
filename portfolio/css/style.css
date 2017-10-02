@@ -352,14 +352,14 @@ CONTENT
 .content{
   position:relative;
   width:1140px;
-  margin:50px auto;
+  margin: 0 50px auto;
 }
 
 
 .content .text-intro{
   width: 1140px;
   margin-top: 150px;
-  margin: 150px auto 0;
+  margin: 50px auto 0;
 }
 
 .content .text-intro h1{
