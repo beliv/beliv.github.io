@@ -1,3 +1,7 @@
+/** {
+  transition: all 0.5s ease
+}*/
+
 body{
   font-family: 'Raleway', sans-serif;
   font-size:14px;
@@ -43,6 +47,14 @@ strong{
   font-weight:700;
 
 }
+
+/*
+**************************
+Image Viewer
+**************************
+*/
+
+
 
 /*
 **************************
