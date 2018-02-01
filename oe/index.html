@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>Oration Events</title>
+	<meta name="description" content="Oration Events" />
+	<meta name="keywords"  content="Oration Events" />
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/vertical.css" />
+	<link rel="stylesheet" type="text/css" href="css/dvslider.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+	<!-- Favicon and touch icons -->
+	<link rel="shortcut icon" href="ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/fullpage.js"></script>
+	<script src="js/onepage-scroll.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			    anchors: ['anchor1', 'anchor2', 'anchor3'],
+				verticalCentered: false,
+				menu: '#menu',
+				slidesNavigation: true
+			});
+		});
+	</script>
+</head>
+<body>
+<header>
+	    <div class="container">
+	        <div class="logo">
+                 <img src="img/logo.png" alt="">
+            </div>
+			<ul id="menu" class="nav">
+			        <li data-menuanchor="anchor1" class="active"><a href="#anchor1">About us</a></li>
+					<li data-menuanchor="anchor2"><a href="#anchor2">Shows</a></li>
+					<li data-menuanchor="anchor3"><a href="#anchor3">contacts</a></li>
+		    </ul>
+			<ul class="lang">
+			        <li><a class="actives" href="#">EN</a></li>
+					<li>|</li>
+					<li><a href="#">DE</a></li>
+		    </ul>
+	    </div>
+</header>
+<div id="fullpage">
+	<div class="section" id="about">
+	   <div class="bg-overlay"></div>
+	    <div class="container">
+	       <p>Ovation Events was founded by a team with more than twenty years of experience in live entertainment in 2007. <br/>Our company specializes in live show production and tour management around the world. <br/>We present the most entertaining international shows, including ballet, dance, music and theater productions. <br/>We prefer a long-term cooperation a short-term profit.</p>
+	
+	    </div>
+	</div>
+	<div class="section" id="folio">
+		<div class="slide" id="slide1">
+		    <div class="bg-overlay"></div>
+			<div class="container">
+			        <h2>ST. PETERSBURG FESTIVAL BALLET</h2>
+				    <a class="click modal-trigger" href="#" data-modal="modal-2">click to view more</a>
+                    <p>A brilliant company that has gathered within itself all that is called the «Russian school of classical ballet» — the strict classic elegance, a fresh breath of the twenty-first century, a perfect dance performance in combination with a truly royal splendor of costumes and scenery. St. Petersburg Festival Ballet combines best traditions and spirit of St. Petersburg ballet. Elegance, grace, delightful lightness is what makes the St. Petersburg ballet different.</p>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+			<div class="container">
+			        <h2>VIVANCOS</h2>
+				    <a class="click modal-trigger" href="#" data-modal="modal-1">click to view more</a>
+                    <p>World Tour in 40 countries and more than one million viewers! For the first time in Germany. The international press colled them Gods of Dance, Miracles of Genetics, Scenic Phenomenon! Vivancos! With the artistic collaboration of the creator of “Corteo” of Cirque du Soleil and the Artistic director of the Turin’s Olympic Games, the Budapest Symphonic Orquestra, the composer of “the Impossible” soundtracks… </p>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+		
+		</div>	
+	</div>
+	<div class="section" id="contact">
+	    <div class="bg-overlay"></div>
+		<div class="container">
+		<h2>Contacts</h2>
+		<div class="adress">
+		    <p>Ovation Events GmbH<br/>
+               Neumarkterstrasse 21<br/>
+               81673 Munich<br/>
+               Germany<br/>
+			</p>
+		</div>
+		<ul class="contacts">
+			<li>E-Mail:<a href="mailto:info@ovation-event.de">info@ovation-event.de</a></li>
+			<li>Tel.: +49 89 20048360</li>
+			<li>Fax.: +49 89 20081378</li>
+		</ul>
+		</div>
+	</div>
+</div>
+<div class="map-content">
+	<div id="cd-google-map">
+	    <div id="google-container"></div>
+    </div>
+</div>
+<!-- Modal-1 -->
+<div class="modal" id="modal-1">
+    <div id="silentMoveToSlide" class="close-modal"></div>	
+	<div id="container" class="wrapper" data-XSwitch>
+         <div class="sections">
+		    <div class="bg-overlay"></div>
+             <div class="section" id="sections0">
+                    <div class="container">
+                        <p>Vivancos is more than just a music and dance company, it is a way of life brought onstage. Their musical-scenic productions bring forth fusion and innovation, blending tradition with modern flares and virtuosity with spectacular effects in a unique style that has made them one of the leading groups with greater international projection of the actual artistic panorama. Vivancos are 7 internationally renowned brothers, unified by art. Throughout their childhood they traveled the world living in many of the cultural capitals of the world, like England, Nederland, Canada, Mexico or Spain, learning the different ways of understanding art and showmanship, and slowly mastering many different art forms like flamenco, martial arts, classical ballet, music, circus and acrobatics, taught always by their father. Revolutionary, innovative, unique, shocking, extraordinary…. Will leave you breathless!</p>
+                    </div>
+					<img class="mouse" src="img/mouse.svg" alt="">
+			 </div>
+             <div class="section" id="sections1">
+			    <div class="bg-overlay"></div>
+			    <img class="mouse" src="img/mouse.svg" alt="">
+			 </div>
+             <div class="section" id="sections2">
+			    <div class="bg-overlay"></div>
+				<img class="mouse" src="img/mouse.svg" alt="">
+		     </div>
+	         <div class="section" id="sections3">
+			    <div class="bg-overlay"></div>
+			 </div>
+         </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWN_30rOKjJV3F3EZkY6NloP77ooIltzk"></script>
+</body>
+</html>
