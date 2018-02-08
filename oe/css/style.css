@@ -216,17 +216,17 @@ header {
 /*Adding background for the slides
 * --------------------------------------- */
 #slide1{
-	background: url(../img/sl1.jpg) center center;
+	background: url(../img/slide1.jpg) center center;
     background-size: cover;
     height: 100vh;
 }
 #slide2{
-	background: url(../img/sl2.jpg) center center;
+	background: url(../img/slide2.jpg) center center;
     background-size: cover;
     height: 100vh;
 }
 #slide3{
-	background: url(../img/sl4.jpg) center center;
+	background: url(../img/slide3.jpg) center center;
     background-size: cover;
     height: 100vh;
 }
