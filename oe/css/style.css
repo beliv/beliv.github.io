@@ -349,20 +349,29 @@ header {
   overflow: hidden;
 }
 /* spb */
-#sections0 {
-   background: url(../img/sl1.jpg) center center;
+#inner1-1 {
+   background: url(../img/inner1-1.jpg) center center;
    background-size: cover;
 }
-#sections1 {
-   background: url(../img/sl1-1.jpg) center center;
+#inner1-2 {
+   background: url(../img/inner1-2.jpg) center center;
    background-size: cover;
 }
-#sections2 {
-   background: url(../img/sl1-2.jpg) center center;
+#inner1-3 {
+   background: url(../img/inner1-3.jpg) center center;
    background-size: cover;
 }
-#sections3 {
-   background: url(../img/sl1-3.jpg) center center;
+
+#inner2-1 {
+   background: url(../img/inner2-1.jpg) center center;
+   background-size: cover;
+}
+#inner2-2 {
+   background: url(../img/inner2-2.jpg) center center;
+   background-size: cover;
+}
+#inner2-3 {
+   background: url(../img/inner2-3.jpg) center center;
    background-size: cover;
 }
 
