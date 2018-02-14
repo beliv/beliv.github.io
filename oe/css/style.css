@@ -375,6 +375,32 @@ header {
    background-size: cover;
 }
 
+#inner3-1 {
+   background: url(../img/inner3-1.jpg) center center;
+   background-size: cover;
+}
+#inner3-2 {
+   background: url(../img/inner3-2.jpg) center center;
+   background-size: cover;
+}
+#inner3-3 {
+   background: url(../img/inner3-3.jpg) center center;
+   background-size: cover;
+}
+
+#inner4-1 {
+   background: url(../img/inner4-1.jpg) center center;
+   background-size: cover;
+}
+#inner4-2 {
+   background: url(../img/inner4-2.jpg) center center;
+   background-size: cover;
+}
+#inner4-3 {
+   background: url(../img/inner4-3.jpg) center center;
+   background-size: cover;
+}
+
 /* vivancos */
 #sections4 {
    background: url(../img/sl3.jpg) center center;
