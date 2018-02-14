@@ -230,6 +230,11 @@ header {
     background-size: cover;
     height: 100vh;
 }
+#slide4{
+	background: url(../img/slide3.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+}
 
 .modal,
 .modal-box {
