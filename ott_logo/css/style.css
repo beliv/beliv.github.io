@@ -17,7 +17,7 @@ body {
   background-color: #fff;
 }
 
-.centered {position: fixed; top: 50%; left: 50%;}
+.centered {position: fixed; top: 50%; left: 50%;margin-top: -50px; margin-left: -50px;}
 
 /*General loader*/
 .loader {
