@@ -1,16 +1,31 @@
 body {
-	color: #222222;
-	}
+	color: #57586E;
+	font-family: 'Roboto', "Open Sans", "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	color: black;
-	}
+	font-weight: 400;
+}
 
 .feature {
-	background-color: yellowgreen;
-	height: 540pt;
+	height: 420pt;
 	background: #ffffff url('../bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
-	}
+}
+
+.role h5 {
+	color: #101131;
+	/* font-size: 0.8rem; */
+	font-weight: 500;
+}
+
+.role p {
+	color: #6B6C86;
+	font-size: 15px;
+	font-weight: 400;
+}
 
 .article-intro {
     margin-bottom: 25px;
@@ -26,6 +41,5 @@ h1, h2, h3, h4, h5, h6 {
     } */
 
 .small-print {
-	background-color: #fff;
-	padding: 30px 0;
+	padding: 20px 0 40px 0;
 }
