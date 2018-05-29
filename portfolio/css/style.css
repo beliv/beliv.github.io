@@ -3,8 +3,7 @@
 }*/
 
 body{
-  /* font-family: 'Raleway', sans-serif; */
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size:14px;
   font-weight: 300;
   overflow-y:scroll;
@@ -24,7 +23,7 @@ body{
 	}
 
 p{
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size:14px;
   font-weight: 300;
 }
@@ -327,6 +326,10 @@ CONTENT
   margin: 50px auto 0;
 }
 
+.content .text-intro a{
+  color: #222;
+}
+
 .content .text-intro h1{
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size:38px;
@@ -347,12 +350,11 @@ CONTENT
 }
 
 .content .text-intro p{
-  font-size:14px;
-  color:#535353;
+  font-size:16px;
+  color:#999;
   margin-top:30px;
   font-weight:400;
-  line-height:22px;
-  letter-spacing:1px;
+  line-height:24px;
   width:60%;
 }
 
@@ -502,8 +504,8 @@ li.grid-item{
   left:40px;
   position:absolute;
   text-transform:uppercase;
-  color:#000000;
-  letter-spacing:1px;
+  color:#aaa;
+  /* letter-spacing:1px; */
   font-weight:900;
   line-height:50px;
 }
@@ -513,8 +515,8 @@ li.grid-item{
   bottom:40px;
   left:40px;
   position:absolute;
-  color:#686868;
-  letter-spacing:1px;
+  color:#aaa;
+  /* letter-spacing:1px; */
   font-weight:400;
   line-height:50px;
 }
@@ -559,7 +561,6 @@ footer{
 
 .footer-margin .social-footer{
   color: #686868;
-  letter-spacing: 1px;
   font-size: 13px;
   width: 100%;
   text-align:center;
