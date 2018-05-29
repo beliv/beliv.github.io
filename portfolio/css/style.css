@@ -35,12 +35,12 @@ p{
 a{
 	color:#000;
   text-decoration:none;
-  -webkit-transition: all 0.2s ease-in;
+  /* -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
-	border-bottom:1px solid #dedede;
+	border-bottom:1px solid #dedede; */
 }
 
 a:focus {
@@ -327,7 +327,12 @@ CONTENT
 }
 
 .content .text-intro a{
+  text-decoration: none;
   color: #222;
+}
+
+.content .text-intro a:hover{
+  text-decoration: underline;
 }
 
 .content .text-intro h1{
