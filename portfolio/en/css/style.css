@@ -4,9 +4,9 @@
 
 body{
   /* font-family: 'Raleway', sans-serif; */
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size:14px;
-  font-weight: 300;
+  font-weight: 400;
   overflow-y:scroll;
   -webkit-font-smoothing: antialiased;
 }
@@ -24,13 +24,9 @@ body{
 	}
 
 p{
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Raleway', sans-serif;
   font-size:14px;
-  font-weight: 300;
-}
-
-.dark {
-  color: #000;
+  font-weight: 400;
 }
 
 a{
@@ -328,27 +324,17 @@ CONTENT
 }
 
 .content .text-intro h1{
-  font-family: 'Fira Sans Condensed', sans-serif;
   font-size:38px;
-  width:60%;
+  width:40%;
   text-transform:uppercase;
   color:#000000;
   font-weight:900;
   line-height:50px;
 }
 
-.content .text-intro h3{
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size:20px;
-  width:60%;
-  text-transform:uppercase;
-  color:#000000;
-  font-weight:900;
-}
-
 .content .text-intro p{
   font-size:14px;
-  color:#535353;
+  color:#8d8d8d;
   margin-top:30px;
   font-weight:400;
   line-height:22px;
@@ -609,7 +595,7 @@ input{
   color:#000000;
   font-weight:500;
   line-height:40px;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-bottom:10px;
   font-size:13px;
   padding-left:15px;
@@ -625,7 +611,7 @@ input.button-submit{
   background:#f8f7f7;
   font-weight:500;
   border:0;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color:#000000;
   float:right;
   font-weight:900;
@@ -646,7 +632,7 @@ textarea{
   background:#f8f7f7;
   color:#000000;
   font-size:13px;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight:500;
   margin-bottom:10px;
   padding:0 0 0 15px;
