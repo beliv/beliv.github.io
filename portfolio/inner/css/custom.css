@@ -43,6 +43,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 20px;
 }
 
+.image p {
+	padding-top: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
 .back-button a {
 	color: black;
 }
