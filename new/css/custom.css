@@ -140,7 +140,7 @@ pre:hover::after {
     visibility: visible;
 }
 
-pre.code-html code {
+pre.code-json code {
     color: #78909c;
 }
 
@@ -153,5 +153,5 @@ pre.code-html code {
 }
 
 .or {
-	color: #0288d1;
+	color: #ef8f00;
 }
