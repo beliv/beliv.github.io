@@ -48,7 +48,9 @@ a {
 }
 
 .gallery img {
-	max-width: 340px;
+	max-width: 100%;
+  height: auto;
+	padding: 20px 0;
 }
 
 .feature {
@@ -175,4 +177,43 @@ pre.code-json code {
 
 .or {
 	color: #ef8f00;
+}
+
+/* Footer */
+.copyright {
+	width: 100%;
+	padding: 40px 0;
+	color: #cad0d5;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+}
+
+.social-footer {
+  color: #686868;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.social-footer a {
+	color: #cad0d5;
+  padding: 20px;
+}
+
+a.fb-color :hover {
+  color: #3B5998;
+}
+
+a.tw-color :hover {
+  color: #0084b4;
+}
+
+a.in-color :hover {
+  color: #fbad50;
+}
+
+a.db-color :hover {
+  color: #ea4c89;
 }
