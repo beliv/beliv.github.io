@@ -27,6 +27,34 @@ a:focus, a:hover {
 	color: black;
 }
 
+blockquote {
+	color: #BCBCC1;
+	text-align: left;
+	position: relative;
+	margin: 40px 0;
+	border: none;
+	font-style: italic;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:after {
+	color: #f3f3f3;
+	content: open-quote;
+	font-size: 80px;
+	position: absolute;
+	left: 50%;
+	bottom: calc(100% - 20px);
+	background: #fff;
+	height: 55px;
+	width: 55px;
+	line-height: normal;
+	text-align: left;
+	transform: translateX(-50%);
+}
+
+blockquote p {
+	padding: 40px;
+}
 
 /* GALLERY STARTS */
 
@@ -43,7 +71,8 @@ li.grid-item {
 }
 
 li.grid-item img{
-  width: 360px;
+	max-width: 100%;
+	height: auto;
 	padding: 15px;
 }
 
