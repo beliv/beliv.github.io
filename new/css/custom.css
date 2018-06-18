@@ -58,7 +58,7 @@ blockquote p {
 }
 
 .iddqd img{
-	width: 100%;
+	max-width: 360px;
 	height: auto;
 	padding: 15px;
 }
