@@ -30,7 +30,7 @@ a:focus, a:hover {
 blockquote {
 	color: #8C8C97;
 	font-family: 'Playfair Display', Georgia, serif;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 28px;
 	text-align: left;
 	position: relative;
@@ -43,68 +43,27 @@ blockquote p {
 	padding-top: 20px;
 }
 
-/* GALLERY STARTS */
+/* MIKE STARTS */
 
-.portfolio-grid {
-  position: relative;
-  margin: 30px auto;
-  overflow: hidden;
+.iddqd {
+  --count: 3;
+  --gap: 10px;
+  --width: 1080px;
+  --item-width: calc(var(--width) / var(--count) - var(--gap));
+
+  display: grid;
+  max-width: var(--width);
+  grid-template-columns: repeat(auto-fill, minmax(var(--item-width), 1fr));
+  gap: var(--gap);
 }
 
-li.grid-item {
-  width: 360px;
-  position: relative;
-  float: left;
-}
-
-li.grid-item img{
-	max-width: 100%;
+.iddqd img{
+	width: 100%;
 	height: auto;
 	padding: 15px;
 }
 
-.grid-hover {
-  position: absolute;
-  width: 360px;
-  height: 100%;
-  top: 0;
-  background: white;
-  z-index: 2;
-  opacity: 0;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.grid-hover:hover{
-  opacity: 0.9;
-}
-
-.grid-hover h1 {
-  font-size: 23px;
-  bottom: 80px;
-  left: 40px;
-  position: absolute;
-  text-transform: uppercase;
-  color: #222;
-  font-weight: 900;
-  line-height: 50px;
-}
-
-.grid-hover p {
-  font-size: 16px;
-  bottom: 40px;
-  left: 40px;
-  position: absolute;
-  color: #999;
-  font-weight: 400;
-  line-height: 50px;
-}
-
-/* GALLERY ENDS */
-
+/* MIKE ENDS */
 
 .container {
 	margin-top: 40px;
