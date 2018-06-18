@@ -63,6 +63,46 @@ blockquote p {
 	padding: 15px;
 }
 
+.grid-hover {
+  position: absolute;
+  width: 360px;
+  height: 100%;
+  top: 0;
+  background: white;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.grid-hover:hover{
+  opacity: 0.9;
+}
+
+.grid-hover h1 {
+  font-size: 23px;
+  bottom: 80px;
+  left: 40px;
+  position: absolute;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+.grid-hover p {
+  font-size: 16px;
+  bottom: 40px;
+  left: 40px;
+  position: absolute;
+  color: #999;
+  font-weight: 400;
+  line-height: 50px;
+}
+
 /* MIKE ENDS */
 
 .container {
@@ -215,8 +255,6 @@ pre.code-json code {
 	padding: 40px 0;
 	color: #cad0d5;
   font-size: 12px;
-  text-align: center;
-  float: left;
 }
 
 .bottom {
