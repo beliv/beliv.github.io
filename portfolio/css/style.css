@@ -465,10 +465,10 @@ PORTFOLIO GRID
 #ajax-content{width:100%;}
 
 .portfolio-grid{
-  width:1170px;
-  position:relative;
+  width: 1170px;
+  position: relative;
   margin: 30px auto;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 #portfolio-sidebar{
@@ -478,17 +478,17 @@ PORTFOLIO GRID
 }
 
 li.grid-item{
-  width:360px;
-  position:relative;
-  float:left;
-  padding:15px;
+  width: 360px;
+  position: relative;
+  float: left;
+  padding: 15px;
 }
 
 .grid-hover{
   position: absolute;
-  width:360px;
+  width: 360px;
   height: 100%;
-  top:0;
+  top: 0;
   background: white;
   z-index: 2;
   opacity: 0;
