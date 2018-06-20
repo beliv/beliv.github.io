@@ -1,61 +1,3 @@
-.container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    min-height: 100vh;
-}
-
-.gallery-container h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
-}
-
-.gallery-container p.page-description {
-    text-align: center;
-    margin: 25px auto;
-    font-size: 18px;
-    color: #999;
-}
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-    padding: 10px;
-}
-
-.tz-gallery .lightbox img {
-    width: 100%;
-    border-radius: 0;
-    position: relative;
-}
-
-.tz-gallery .lightbox:before {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    z-index: 9000;
-    transition: 0.4s;
-}
-
-.tz-gallery .lightbox:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    content: '';
-    transition: 0.4s;
-}
-
-.tz-gallery .lightbox:hover:after,
-.tz-gallery .lightbox:hover:before {
-    opacity: 1;
-}
-
-/* Test Ends */
-
 body {
 	color: #646468;
 	font-family: 'Lato', "Open Sans", "Segoe UI", sans-serif;
@@ -101,34 +43,6 @@ blockquote p {
 	padding-top: 20px;
 }
 
-/* MIKE STARTS */
-
-.co {
-  --count: 3;
-  --width: 1120px;
-  --item-width: calc(var(--width) / var(--count));
-
-  display: grid;
-  max-width: var(--width);
-  grid-template-columns: repeat(auto-fill, minmax(var(--item-width), 1fr));
-}
-
-.io {
-	height: 460px;
-	margin: 10px;
-	background: red;
-  text-align: center;
-	overflow: hidden;
-	background-size: cover;
-  background-position: center;
-}
-
-.co img {
-  /* width: var(--item-width); */
-}
-
-/* MIKE ENDS */
-
 .container {
 	margin-top: 40px;
 	margin-bottom: 20px;
@@ -137,6 +51,47 @@ blockquote p {
 .row {
 	padding-right: 20px;
 	padding-left: 20px;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+}
+
+.tz-gallery .row > div {
+    padding: 10px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
 }
 
 .home h2 {
@@ -276,7 +231,7 @@ pre.code-json code {
 /* Footer */
 .copyright {
 	width: 100%;
-	padding: 40px 0;
+	padding: 10px 0 40px 0;
 	color: #cad0d5;
   font-size: 12px;
 }
@@ -289,7 +244,7 @@ pre.code-json code {
 	width: 100%;
 	margin-top: 40px;
   color: #686868;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   float: left;
 }
