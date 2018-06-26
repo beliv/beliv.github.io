@@ -20,11 +20,12 @@ ul, li {
 }
 
 a {
-	color: black;
+	color: #1B84F7;
 }
 
 a:focus, a:hover {
-	color: black;
+	color: #2B3D52;
+	text-decoration: none;
 }
 
 blockquote {
@@ -139,9 +140,9 @@ blockquote p {
 	padding-bottom: 60px;
 }
 
-.books a {
+/* .books a {
 	color: #1C91F8;
-}
+} */
 
 .image {
 	padding-right: 20px;
