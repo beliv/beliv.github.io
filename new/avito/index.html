@@ -29,7 +29,7 @@
     <style>
     .feature {
       height: 360pt;
-      background: #ffffff url('bg.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+      background: #ffffff url('bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
     }
     </style>
 </head>
@@ -39,42 +39,51 @@
 
   <div class="container">
     <div class="row headline">
-      <h1>This is America</h1>
+      <h1>Avitó Услуги</h1>
     </div>
   </div>
 
   <div class="container">
     <div class="row">
       <div class="col-md-8 pad">
-        <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns starting at desktops and scaling to large desktops, with another two (equal widths) within the larger column.</p>
-        <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+        <p>Проект по&nbsp;созданию мобильных приложений на&nbsp;iOS &amp;&nbsp;Android, разрабатывался внутри компании с&nbsp;2014&nbsp;года. Первый запуск состоялся летом 2015, перезапуск весной 2016. В&nbsp;апреле 2017 проект был закрыт по&nbsp;решению компании.</p>
+
+        <p>Приложение позволяло находить и&nbsp;управлять заказами на&nbsp;оказание различных услуг, размещавшихся на&nbsp;основной площадке Avit&oacute;. Основной аудиторией были профессионалы из&nbsp;разных сфер: курьерские услуги, бытовой ремонт, уборка квартир, образование, перевозки, etc.</p>
       </div>
     </div>
   </div>
 
   <div class="container">
-
     <div class="row role">
       <div class="col-md-4">
-        <h5>Date</h5>
-        <p>Spring 2018</p>
+        <h5>Дата</h5>
+        <p>2014 — 2017</p>
       </div>
       <div class="col-md-4">
-        <h5>Role</h5>
-        <p>Idea, Design</p>
+        <h5>Роль</h5>
+        <p>Дизайн</p>
       </div>
       <div class="col-md-4">
-        <h5>Platforms</h5>
+        <h5>Платформы</h5>
         <p>iOS & Android</p>
       </div>
     </div>
-
   </div>
 
   <div class="container">
     <div class="image text-center">
       <img src="slow.gif" class="img-fluid">
       <p>No matter how dark the night, morning always comes</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 pad">
+        <p>В&nbsp;основе был анализ конкурентов, иностранных аналогов, гипотезы, идеи команды и&nbsp;частично визуальная часть приложения Avito.</p>
+
+        <p>Мои обязанности охватывали полный комплекс создания приложения, от&nbsp;генерации идей, обсуждения вариантов реализации, до&nbsp;тестирования и&nbsp;опроса пользователей готового продукта.</p>
+      </div>
     </div>
   </div>
 
@@ -92,11 +101,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 pad">
-        <h2>Хуй с горы</h2>
-        <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns starting at desktops and scaling to large desktops, with another two (equal widths) within the larger column.</p>
-        <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
-        <!-- <script src="https://gist.github.com/beliv/9107b5c7d02d8eba3680a8e4b52e6ab4.js"></script> -->
-
+        <h2>Интеграция</h2>
+        <p>При поддержке дизайнера <a href="https://twitter.com/Volorf">Олега Фролова</a> из&nbsp;параллельного продукта, и&nbsp;нашей команды, в&nbsp;процесс внедрили систему стилей. В&nbsp;макетах были названы все стили для текста и&nbsp;часть элементов. Это позволило снизить нагрузку с&nbsp;взаимодействия дизайнер-разработчик.</p>
+        <p>Только дизайнер&nbsp;поддерживал файлы со&nbsp;стилями. Для iOS .json, для Android .xml. Это сняло ответственность с&nbsp;разработчиков, что где-то неправильный размер кегля или цвет кнопки.</p>
+        <p>Пример параметров цветов и&nbsp;шрифтов в&nbsp;style.json</p>
 <pre class='code code-json'><code>{
   <span class="rd">"color"</span>: {
     <span class="rd">"black"</span>: {
@@ -131,9 +139,7 @@
   }
 }</code></pre>
 
-
-        <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns starting at desktops and scaling to large desktops, with another two (equal widths) within the larger column.</p>
-        <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+        <p>Пример параметров для кнопок.</p>
 
 <pre class='code code-json'><code><span class="rd">"button"</span>: {
   <span class="rd">"buttonGreen"</span>: {
@@ -148,14 +154,16 @@
     <span class="rd">"cornerRadius"</span>: <span class="or">2</span>
 }</code></pre>
 
+      <p>Библиотеку визуальных стилей для iOS можно <a href="https://github.com/motylevm/skstylekit">скачать на&nbsp;Github</a>.</p>
+
       </div>
     </div>
   </div>
 
   <footer>
-    <div class="container">
-      <div class="row back-button">
-        <a class="btn btn-outline-primary" href="../index.html" role="button">Назад</a>
+    <div class="container bottom">
+      <div class="row">
+        <a class="btn" href="../index.html" role="button">Назад</a>
       </div>
     </div>
   </footer>
