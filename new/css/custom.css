@@ -2,7 +2,7 @@ body {
 	color: #a0a6ad;
 	/* font-family: 'Lato', "Open Sans", "Segoe UI", sans-serif; */
   font-family: Roboto, Helvetica Neue, Helvetica, Segoe UI, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
 	line-height: 26px;
 }
@@ -30,9 +30,8 @@ a:focus, a:hover {
 }
 
 blockquote {
-	color: #8C8C97;
-	font-family: 'Playfair Display', Georgia, serif;
-	font-weight: 400;
+	color: #B6BBC2;
+	font-family: 'Merriweather', serif;
 	line-height: 28px;
 	text-align: left;
 	position: relative;
