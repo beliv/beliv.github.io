@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Jason Debiak",
+    "location": "Ridgewood, NJ",
+    "role": "Creative Director",
+    "photo": "https://uinames.com/api/photos/male/1.jpg"
+  },
+  {
+    "name": "Mirko Santangelo",
+    "location": "New York, USA",
+    "role": "Senior Designer",
+    "photo": "https://uinames.com/api/photos/male/2.jpg"
+  },
+  {
+    "name": "Michelle Perez",
+    "location": "New Jersey",
+    "role": "Freelancer",
+    "photo": "https://uinames.com/api/photos/female/1.jpg"
+  },
+  {
+    "name": "Mark Maynard",
+    "location": "Atlanta Georgia",
+    "role": "Senior UI/UX Designer",
+    "photo": "https://uinames.com/api/photos/male/3.jpg"
+  },
+  {
+    "name": "Shaban Iddrisu",
+    "location": "Dubai, UAE",
+    "role": "Ui/Ux & Brand Designer",
+    "photo": "https://uinames.com/api/photos/male/4.jpg"
+  },
+  {
+    "name": "John Hall",
+    "location": "Durham, United Kingdom",
+    "role": "Visual Designer",
+    "photo": "https://uinames.com/api/photos/male/5.jpg"
+  }
+]
