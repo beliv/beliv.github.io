@@ -40,10 +40,26 @@
     "phone": "+7 663 804 9496"
   },
   {
+    "name": "Sara Nicely",
+    "location": "Los Angeles",
+    "role": "Independent Designer & Illustrator",
+    "photo": "https://uinames.com/api/photos/female/2.jpg",
+    "mail": "saramnice@gmail.com",
+    "phone": "+7 722 339 9376"
+  },
+  {
+    "name": "Michael Delgado",
+    "location": "United States",
+    "role": "Product Designer",
+    "photo": "https://uinames.com/api/photos/male/5.jpg",
+    "mail": "michael_89@example.com",
+    "phone": "+7 546 863 7877"
+  },
+  {
     "name": "John Hall",
     "location": "Durham, United Kingdom",
     "role": "Visual Designer",
-    "photo": "https://uinames.com/api/photos/male/5.jpg",
+    "photo": "https://uinames.com/api/photos/male/6.jpg",
     "mail": "John_Hall@mail.com",
     "phone": "+7 912 457 9775"
   }
