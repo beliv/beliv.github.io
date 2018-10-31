@@ -1,15 +1,14 @@
 body {
-	color: #a0a6ad;
-	/* font-family: 'Lato', "Open Sans", "Segoe UI", sans-serif; */
+	color: #424648;
   font-family: Roboto, Helvetica Neue, Helvetica, Segoe UI, Arial, sans-serif;
   font-weight: 300;
-  font-size: 16px;
-	line-height: 26px;
+  font-size: 17px;
+	line-height: 1.75em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Roboto, sans-serif;
-	color: black;
+	color: #1c1d1e;
 	font-weight: 900;
 	padding-bottom: 20px;
 }
@@ -21,12 +20,13 @@ ul, li {
 }
 
 a {
-	color: #394E67;
+	color: #424648;
+	text-decoration: underline;
 }
 
 a:focus, a:hover {
-  color: #394E67;
-	text-decoration: none;
+	color: #424648;
+	text-decoration: underline;
 }
 
 blockquote {
