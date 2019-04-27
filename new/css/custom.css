@@ -28,21 +28,6 @@ a:focus, a:hover {
 	text-decoration: underline;
 }
 
-blockquote {
-	color: #B6BBC2;
-	font-family: 'Merriweather', serif;
-	line-height: 28px;
-	text-align: left;
-	position: relative;
-	margin-bottom: 40px;
-	border: none;
-	font-style: italic;
-}
-
-blockquote p {
-	padding-top: 20px;
-}
-
 .container {
 	margin-top: 40px;
 	margin-bottom: 20px;
