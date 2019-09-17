@@ -1,0 +1,778 @@
+body {
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  cursor: default;
+  width: 100%;
+  outline: none !important;
+  color: #fff;
+}
+a{
+  text-decoration:none;
+  color: #fff;
+  -webkit-transition: 0.25s linear;
+     -moz-transition: 0.25s linear;
+     -o-transition: 0.25s linear;
+     transition: 0.25s linear;
+}
+a:active,
+a:focus,
+a:hover {
+  outline: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section {
+  height:100vh;
+  margin:0;
+}
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.clearfix {
+  clear: both;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ol,ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+/*section
+* --------------------------------------- */
+.section{
+	background-size: cover;
+	background-position: center center;
+}
+
+.container {
+  position: relative;
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px 0 80px;
+  z-index: 100;
+}
+header {
+  position:fixed;
+  top:0;
+  left:0;
+  display:block;
+  width:100%;
+  background:rgba(0,0,0,0);
+  z-index:9999;
+}
+.logo img {
+  position: relative;
+  width: 170px;
+  top: 62px;
+  left: 0px;
+}
+.nav {
+  position: absolute;
+  top: 102px;
+  right: 180px
+}
+.nav li{
+  display: inline-block;
+  margin-right: 56px
+}
+.nav li:last-child {
+  margin-right: 6px
+}
+.nav li a{
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav li.active a,
+.nav li a:hover {
+  color: rgba(255,255,255,0.5);
+}
+.lang {
+  position: absolute;
+  top: 102px;
+  right: 80px
+}
+.lang li{
+  display: inline-block;
+}
+.lang li a{
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.lang li a.actives,
+.lang li a:hover {
+  color: rgba(255,255,255,0.5);
+}
+.lang li:nth-child(1){
+  margin-right: 7px;
+}
+.lang li:nth-child(3){
+  margin-left: 7px;
+}
+
+/* about
+* --------------------------------------- */
+#about {
+    background: url(../img/bg1.jpg) center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+#about p{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fff;
+	opacity: 0.9;
+	width: 1128px;
+	margin-bottom: 88px;
+}
+
+/* folio
+* --------------------------------------- */
+#folio  {
+	position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#folio .container {
+	position: relative;
+    z-index: 99;
+}
+.slide{
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	}
+#folio h2 {
+	position: relative;
+	display: inline-block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+    color: #fff;
+	margin-right: 15px;
+}
+#folio p {
+	font-size: 22px;
+	line-height: 1.45;
+	opacity: 0.9;
+	margin: 0 0 88px 0;
+	width: 1128px;
+}
+#folio a.click {
+	clear: both;
+	font-size: 16px;
+	text-decoration: underline;
+	-webkit-transition: 0.25s linear;
+     -moz-transition: 0.25s linear;
+     -o-transition: 0.25s linear;
+     transition: 0.25s linear;
+}
+#click.actives {
+	opacity: 0;
+	margin-left: 100px;
+}
+#folio a:hover{
+    text-decoration: none;
+}
+#container {
+  position: relative;
+  height: 100%;
+}
+/* Overwriting styles for the navigation dots (to place it where we want)
+* --------------------------------------- */
+.fp-slidesNav.bottom{
+	bottom: 25px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+/*Adding background for the slides
+* --------------------------------------- */
+#slide1{
+	background: url(../img/slide1.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+}
+#slide2{
+	background: url(../img/slide2.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+}
+#slide3{
+	background: url(../img/slide3.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+}
+#slide4{
+	background: url(../img/slide3.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.modal,
+.modal-box {
+  z-index: 9999;
+}
+.modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  animation-name: modal;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+}
+.modal-box {
+  position: relative;
+  width: 100%;
+  animation-name: modalbox;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+}
+/* Close Button */
+.close-modal {
+    position: fixed;
+    top: 62px;
+    left: 80px;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    z-index: 999;
+    background: url(../img/close.svg) no-repeat;
+	opacity: 0.8;
+	-webkit-transition: 0.25s linear;
+     -moz-transition: 0.25s linear;
+     -o-transition: 0.25s linear;
+     transition: 0.25s linear;
+}
+.mouse {
+  position: relative;
+  margin: 0 auto 24px auto;
+  display: table;
+  z-index: 99;
+}
+.close-modal:hover {
+    opacity: 1;
+}
+/* Animation */
+@-webkit-keyframes modalbox {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes modalbox {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes modal{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes modal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.wrapper {
+    height: 100% !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+.main section {
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	overflow: hidden;
+}
+.section {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#container,  .sections,  .section {
+  position: relative;
+  height: 100%;
+}
+.modal .section {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+/* spb */
+#inner1-1 {
+   background: url(../img/inner1-1.jpg) center center;
+   background-size: cover;
+}
+#inner1-2 {
+   background: url(../img/inner1-2.jpg) center center;
+   background-size: cover;
+}
+#inner1-3 {
+   background: url(../img/inner1-3.jpg) center center;
+   background-size: cover;
+}
+
+#inner2-1 {
+   background: url(../img/inner2-1.jpg) center center;
+   background-size: cover;
+}
+#inner2-2 {
+   background: url(../img/inner2-2.jpg) center center;
+   background-size: cover;
+}
+#inner2-3 {
+   background: url(../img/inner2-3.jpg) center center;
+   background-size: cover;
+}
+
+#inner3-1 {
+   background: url(../img/inner3-1.jpg) center center;
+   background-size: cover;
+}
+#inner3-2 {
+   background: url(../img/inner3-2.jpg) center center;
+   background-size: cover;
+}
+#inner3-3 {
+   background: url(../img/inner3-3.jpg) center center;
+   background-size: cover;
+}
+
+#inner4-1 {
+   background: url(../img/inner4-1.jpg) center center;
+   background-size: cover;
+}
+#inner4-2 {
+   background: url(../img/inner4-2.jpg) center center;
+   background-size: cover;
+}
+#inner4-3 {
+   background: url(../img/inner4-3.jpg) center center;
+   background-size: cover;
+}
+
+/* vivancos */
+#sections4 {
+   background: url(../img/sl3.jpg) center center;
+   background-size: cover;
+}
+#sections5 {
+   background: url(../img/sl3-1.jpg) center center;
+   background-size: cover;
+}
+#sections6 {
+   background: url(../img/sl3-2.jpg) center center;
+   background-size: cover;
+}
+#sections7 {
+   background: url(../img/sl3-3.jpg) center center;
+   background-size: cover;
+}
+.pages {
+  display: none;
+}
+.modal p{
+    font-size: 22px;
+	line-height: 32px;
+	color: rgba(255,255,255,0.9);
+	width: 100%;
+	padding-right: 540px;
+	margin-bottom: 64px;
+}
+/* contact
+* --------------------------------------- */
+#contact {
+	display: table;
+    width: 100%;
+    height: 100vh;
+}
+#contact .container {
+    position: absolute;
+	display: table;
+	bottom: 40px;
+	z-index: 9999;
+}
+#contact h2 {
+	position: relative;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+    color: #fff;
+}
+.adress {
+	position: relative;
+	background: #000;
+	padding: 14px;
+	width: 288px;
+	float: left;
+	margin-right: 40px;
+}
+.adress p {
+	font-size: 16px;
+	line-height: 1.75;
+	margin: 0;
+}
+.contacts {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.75;
+    background: #000;
+    padding: 14px;
+    width: 277px;
+	float: left;
+}
+.contacts a{
+    text-decoration: underline;
+}
+.contacts a:hover{
+    text-decoration: none;
+}
+.bg-overlay {
+  background: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
+}
+.bg-overlays {
+  background: rgba(0,0,0,0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
+}
+.map-content {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    height: 100vh;
+    top: 0;
+	left: 0;
+}
+#google-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+#cd-google-map {
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+.modal p {
+    padding-right: 140px;
+    margin-bottom: 40px;
+	font-size: 18px;
+    line-height: 28px;
+}
+#about p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 760px;
+}
+#folio p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 760px;
+}
+}
+@media (max-width: 980px) {
+.nav {
+    display: none;
+}
+.container {
+    padding: 0 40px 0 40px;
+}
+#about p {
+    width: 100%;
+}
+#folio p {
+    width: 100%;
+}
+#folio h2 {
+    font-size: 32px;
+}
+#contact h2 {
+    font-size: 32px;
+}
+.close-modal {
+    top: 30px;
+    left: 40px;
+}
+}
+@media (max-width: 760px) {
+.container {
+    padding: 0 50px 0 50px;
+}
+.nav {
+    display: none;
+}
+.logo img {
+    width: 100px;
+    top: 15px;
+}
+.lang {
+    top: 25px;
+    right: 50px;
+}
+#about p {
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+	margin-bottom: 30px;
+}
+#folio h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+#contact h2 {
+    font-size: 28px;
+}
+#folio .container {
+    margin-bottom: 30px;
+}
+#folio p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 25px 0;
+}
+#folio a.click {
+    font-size: 14px;
+}
+.modal p {
+    padding-right: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 22px;
+}
+.close-modal {
+    top: 10px;
+    left: 10px;
+    width: 23px;
+    height: 23px;
+    background: url(../img/close2.svg) no-repeat;
+}
+#contact .container {
+    position: absolute;
+	bottom: 40px;
+	z-index: 9999;
+}
+#contact h2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+	margin: 0 0 10px 0;
+}
+.adress {
+    position: relative;
+    float: left;
+    width: 46%;
+    margin-right: 8%;
+}
+.adress p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+.contacts {
+    position: relative;
+    width: 46%;
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+}
+.mouse {
+    margin: 0 auto 10px auto;
+}
+.fp-slidesNav.bottom {
+	position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+}
+@media (max-width: 639px) {
+.container {
+    padding: 0 30px 0 30px;
+}
+.logo img {
+    width: 100px;
+    top: 10px;
+}
+.lang {
+    top: 25px;
+    right: 30px;
+}
+.contacts {
+	width: 46%;
+	font-size: 14px;
+    line-height: 24px;
+}
+.adress {
+    width: 46%;
+	margin-right: 8%;
+	margin-bottom: 20px;
+	font-size: 14px;
+    line-height: 24px;
+}
+#about p {
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#contact h2 {
+    margin: 0 0 20px 0;
+}
+#folio h2 {
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+#folio p {
+    line-height: 22px;
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+}
+.mouse {
+    margin: 0 auto 10px auto;
+}
+.modal p {
+    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 22px;
+}
+}
+@media (max-width: 480px) {
+.container {
+    padding: 0 30px 0 30px;
+}
+#about p {
+	font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 40px 0;
+}
+#folio p {
+	font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0 40px 0;
+}
+#folio h2 {
+    margin-bottom: 10px;
+}
+.modal p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.modal-box .container {
+    padding: 0 15px 0 15px;
+}
+.mouse {
+    margin: 0 auto 40px auto;
+}
+.adress {
+    width: 100%;
+    margin-right: 0%;
+}
+.contacts {
+    width: 100%;
+	margin-bottom: 0px;
+}
+}
+@media (max-width: 359px) {
+.container {
+    padding: 0 20px 0 20px;
+}
+.lang {
+    top: 20px;
+    right: 20px;
+}
+#about p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 30px 0;
+}
+#folio p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 15px 0 40px 0;
+}
+.modal p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+#contact .container {
+    bottom: 40px;
+}
+#folio .container {
+    margin-bottom: 70px;
+}
+.mouse {
+    margin: 0 auto 82px auto;
+}
+}

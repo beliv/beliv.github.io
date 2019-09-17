@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  &:link, &:visited, &:hover, &:active {
+    color: #f1c40f;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+
+/*Sections*/
+
+.section {
+  background-color: #27ae60;
+  height: 500px;
+  line-height: 500px;
+}
+
+.section-two {
+  background-color: #2980b9;
+}
+
+.section-three {
+  background-color: #8e44ad;
+}
+
+.section-four {
+  background-color: #2c3e50;
+}
+
+.section-five {
+  background-color: #e74c3c;
+}
+
+.section-six {
+  background-color: #f1c40f;
+}
+
+/*footer*/
+
+footer {
+  background-color: #27ae60;
+  height: 200px;
+  line-height: 200px;
+}
+
+/*General loader*/
+
+.loader {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+/*Loader-simple*/
+
+.loader-simple {
+  border-radius: 50px;
+  border: 6px solid rgba(255, 255, 255, 0.4);
+  &:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+  }
+}
+
+/*Loader-double*/
+
+.loader-double {
+  border-radius: 50px;
+  border: 6px solid transparent;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  animation: load 1s linear infinte;
+  -webkit-animation: load 1s linear infinite;
+  -o-animation: load 1s linear infinite;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    opacity: 0.6;
+    animation: load-reverse 2s linear infinte;
+    -webkit-animation: load-reverse 2s linear infinite;
+    -o-animation: load-reverse 2s linear infinite;
+  }
+}
+
+/*Loader-twirl*/
+
+.loader-twirl {
+  border-radius: 50px;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: load 1s linear infinte;
+  -webkit-animation: load 1s linear infinite;
+  -o-animation: load 1s linear infinite;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: 0.8;
+    animation: load-reverse 2.5s linear infinte;
+    -webkit-animation: load 2.5s linear infinite;
+    -o-animation: load 2.5s linear infinite;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: 0.5;
+    animation: load 5s linear infinte;
+    -webkit-animation: load 5s linear infinite;
+    -o-animation: load 5s linear infinite;
+  }
+}
+
+/*Loader-stack*/
+
+.loader-stack {
+  border-radius: 50px;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: load 1s infinte;
+  -webkit-animation: load 1s infinite;
+  -o-animation: load 1s infinite;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: 0.8;
+    animation: load-reverse 1s infinte;
+    -webkit-animation: load 1s infinite;
+    -o-animation: load 1s infinite;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    opacity: 0.5;
+    animation: load 1s infinte;
+    -webkit-animation: load 1s infinite;
+    -o-animation: load 1s infinite;
+  }
+}
+
+/*Loader-dot*/
+
+.loader-dot {
+  border-radius: 50px;
+  border: 6px solid transparent;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  animation: load 1s linear infinte;
+  -webkit-animation: load 1s linear infinite;
+  -o-animation: load 1s linear infinite;
+  &:after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    opacity: 0.6;
+    animation: load-reverse 2s linear infinte;
+    -webkit-animation: load-reverse 2s linear infinite;
+    -o-animation: load-reverse 2s linear infinite;
+  }
+}
+
+/*Loader-simple*/
+
+.loader-simple {
+  border-radius: 50px;
+  border: 6px solid rgba(255, 255, 255, 0.4);
+  &:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    animation: load 1s linear infinte;
+    -webkit-animation: load 1s linear infinite;
+    -o-animation: load 1s linear infinite;
+  }
+}
+
+/*Loader-double-big*/
+
+.loader-double-big {
+  border-radius: 50px;
+  border: 15px solid transparent;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  animation: load 1s linear infinte;
+  -webkit-animation: load 1s linear infinite;
+  -o-animation: load 1s linear infinite;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    opacity: 0.6;
+    animation: load-reverse 2s linear infinte;
+    -webkit-animation: load-reverse 2s linear infinite;
+    -o-animation: load-reverse 2s linear infinite;
+  }
+}
+
+/*Keyframes load*/
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@-webkit-keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@-o-keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*Keyframes load-reverse*/
+@keyframes load-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+@-webkit-keyframes load-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+@-o-keyframes load-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
